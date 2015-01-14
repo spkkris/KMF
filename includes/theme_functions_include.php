@@ -202,7 +202,8 @@ function showrendertime($queries = true) {
 
 function showcopyright($class = "", $nobreak = false) {
 	$link_class = $class ? " class='$class' " : "";
-	$res = "Powered by <a href='http://www.php-fusion.co.uk'".$link_class.">PHP-Fusion</a> copyright &copy; 2002 - ".date("Y")." by Nick Jones.";
+	$res = "Powered by <a href='http://www.krismods-fusion.pl'".$link_class.">KriS Mods Fusion</a> copyright &copy; 2012 - ".date("Y")."<br />\n";
+	$res. = "Powered by <a href='http://www.php-fusion.co.uk'".$link_class.">PHP-Fusion</a> copyright &copy; 2002 - ".date("Y")." by Nick Jones.";
 	$res .= ($nobreak ? "&nbsp;" : "<br />\n");
 	$res .= "Released as free software without warranties under <a href='http://www.fsf.org/licensing/licenses/agpl-3.0.html'".$link_class.">GNU Affero GPL</a> v3.\n";
 	return $res;
