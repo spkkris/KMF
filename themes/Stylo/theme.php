@@ -20,13 +20,13 @@ if (!defined("IN_FUSION")) { die("Access Denied"); }
 define("THEME_BULLET", "<img src='".THEME."images/bullet.gif' class='bullet' alt='&raquo;' border='0' />");
 define("THEME_WIDTH", "100%");
 
-$enable_colour_switcher = true;
+$enable_colour_switcher = false;
 
 require_once THEME."functions.php";
 require_once THEMES."templates/switcher.php";
 require_once INCLUDES."theme_functions_include.php";
 
-$colour_switcher = new Switcher("select", "colour", "png", "blue", "switcherbutton");
+$colour_switcher = new Switcher("select", "colour", "png", "grey", "switcherbutton");
 if(!$enable_colour_switcher){
 	$colour_switcher->disable();
 }
