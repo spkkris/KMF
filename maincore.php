@@ -137,6 +137,7 @@ define("FORUM", BASEDIR."forum/");
 define("INFUSIONS", BASEDIR."infusions/");
 define("PHOTOS", IMAGES."photoalbum/");
 define("THEMES", BASEDIR."themes/");
+define("UC", BASEDIR."user_center/");
 
 // Variables initializing
 $mysql_queries_count = 0;
