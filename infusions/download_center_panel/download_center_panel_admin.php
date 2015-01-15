@@ -26,7 +26,6 @@ if (file_exists(INFUSIONS."download_center_panel/locale/".$settings['locale'].".
 }
 include INFUSIONS."download_center_panel/infusion_db.php";
 include INFUSIONS."download_center_panel/version_check.php";
-include INFUSIONS."download_center_panel/inc.php";
 if (isset($_GET['status']) && !isset($message)) {
 	if ($_GET['status'] == "su") {
 	$message = $locale['ok'];
@@ -75,7 +74,6 @@ echo"<div style='text-align: center;' class='admin-message center'>".$locale['ad
 		echo"</table>\n";
 		echo $zapisz;
 		echo "</form>\n";
-		echo autor();
 closetable();
 
 require_once THEMES."templates/footer.php";
