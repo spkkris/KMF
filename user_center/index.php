@@ -27,7 +27,6 @@ if ($userdata['user_avatar'] && file_exists(IMAGES."avatars/".$userdata['user_av
 		
 		echo "<td class='tbl1' style='width: 60%;' align='left' valign='top'>
 		<b>Komentarzy:</b> ".number_format(dbcount("(comment_id)", DB_COMMENTS, "comment_name='".$userdata['user_id']."'"))."<br />
-		<b>Wpisów w SB:</b> ".number_format(dbcount("(shout_id)", DB_SHOUTBOX, "shout_name='".$userdata['user_id']."'"))."</br />
 		<b>Postów:</b> ".number_format($userdata['user_posts'])."</br />
 		<b>Twoje IP:</b> ".USER_IP."<br />
 		<b>Data Rejestracji:</b> ".showdate("longdate", $userdata['user_joined'])."<br />

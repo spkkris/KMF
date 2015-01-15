@@ -21,8 +21,8 @@ define("IN_FUSION", true);
 if (isset($_POST['localeset']) && file_exists("locale/".$_POST['localeset']) && is_dir("locale/".$_POST['localeset'])) {
 	include "locale/".$_POST['localeset']."/setup.php";
 } else {
-	$_POST['localeset'] = "English";
-	include "locale/English/setup.php";
+	$_POST['localeset'] = "Polish";
+	include "locale/Polish/setup.php";
 }
 
 if ((isset($_POST['step']) && $_POST['step'] == "7") || (isset($_GET['step']) && $_GET['step'] == "7")) {
