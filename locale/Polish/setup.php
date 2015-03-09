@@ -1,10 +1,10 @@
 <?php
-// Official SVN Trunk Rev: 2352
+// Official SVN Trunk Rev: 2351
 $locale['title'] = "Instalator PHP-Fusion Core 7.02";
 $locale['sub-title'] = "Instalator PHP-Fusion Core 7.02";
 
 $locale['xml_lang'] = "pl";
-$locale['charset'] = "iso-8859-2";
+$locale['charset'] = "utf-8";
 $locale['001'] = "Krok 1. Jêzyk";
 $locale['002'] = "Krok 2. Sprawdzenie praw dostêpu do plików i&nbsp;katalogów";
 $locale['003'] = "Krok 3. Ustawienia bazy danych";
@@ -196,10 +196,10 @@ $locale['223'] = "Statystyki";
 // Welcome message
 $locale['230'] = "Witaj na Swojej nowej stronie.";
 // Final message
-$locale['240'] = "<p>Zakoñczono instalacjê, PHP-Fusion 7.02 jest gotowe do u¿ycia.<br />
+$locale['240'] = "<p>Zakoñczono instalacjê, KriS Mods Fusion v1.00 jest gotowe do u¿ycia.<br />
 Naci¶nij Zakoñcz, aby przej¶æ na swoj± stronê opart± o&nbsp;PHP-Fusion.</p><p>
 <strong>Informacja:</strong> Usuñ plik setup.php ze swojego serwera oraz zmieñ prawa dostêpu do pliku config.php (chmod 644) ze wzglêdów bezpieczeñstwa.</p><p>
-Dziêkujemy za wybranie PHP-Fusion.</p>";
+Dziêkujemy za wybranie KriS Mods Fusion.</p>";
 // Default time settings
 // http://php.net/manual/en/function.strftime.php
 $locale['shortdate'] = "%d.%m.%y";

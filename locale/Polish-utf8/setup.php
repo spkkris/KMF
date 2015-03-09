@@ -196,10 +196,10 @@ $locale['223'] = "Statystyki";
 // Welcome message
 $locale['230'] = "Witaj na Swojej nowej stronie.";
 // Final message
-$locale['240'] = "<p>Zakończono instalację, PHP-Fusion 7.02 jest gotowe do użycia.<br />
+$locale['240'] = "<p>Zakończono instalację, KriS Mods Fusion v1.00 jest gotowe do użycia.<br />
 Naciśnij Zakończ, aby przejść na swoją stronę opartą o&nbsp;PHP-Fusion.</p><p>
 <strong>Informacja:</strong> Usuń plik setup.php ze swojego serwera oraz zmień prawa dostępu do pliku config.php (chmod 644) ze względów bezpieczeństwa.</p><p>
-Dziękujemy za wybranie PHP-Fusion.</p>";
+Dziękujemy za wybranie KriS Mods Fusion.</p>";
 // Default time settings
 // http://php.net/manual/en/function.strftime.php
 $locale['shortdate'] = "%d.%m.%y";
